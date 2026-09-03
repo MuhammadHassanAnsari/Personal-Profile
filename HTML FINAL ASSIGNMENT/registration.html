@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration - Future Institute</title>
+</head>
+
+<body style="margin: 0; font-family: Arial; background-color: white;">
+
+    <div style="width: 90%; margin: 10px auto; border: 1px solid gray;">
+
+        <div style="background-color: #eeeeee; padding: 12px; text-align: center;">
+            <a href="index.html" style="margin: 10px;">Home</a> |
+            <a href="about.html" style="margin: 10px;">About Us</a> |
+            <a href="courses.html" style="margin: 10px;">Courses</a> |
+            <a href="students.html" style="margin: 10px;">Students</a> |
+            <a href="registration.html" style="margin: 10px;">Registration</a>
+        </div>
+
+        <div style="text-align: center; background-color: #d7f0fa; padding: 15px;">
+            <h1>Student Registration Form</h1>
+        </div>
+
+        <div style="padding: 20px;">
+
+            <form>
+
+                <table border="1" cellpadding="10" cellspacing="0"
+                       style="width: 100%;">
+
+                    <tr>
+                        <td>
+                            <label>Student Name:</label>
+                        </td>
+
+                        <td>
+                            <input type="text"
+                                   placeholder="Enter your full name"
+                                   required
+                                   minlength="3"
+                                   maxlength="30"
+                                   style="width: 80%; padding: 8px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Email:</label>
+                        </td>
+
+                        <td>
+                            <input type="email"
+                                   placeholder="Enter your email"
+                                   required
+                                   style="width: 80%; padding: 8px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Password:</label>
+                        </td>
+
+                        <td>
+                            <input type="password"
+                                   placeholder="Enter password"
+                                   required
+                                   minlength="5"
+                                   maxlength="20"
+                                   style="width: 80%; padding: 8px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Contact Number:</label>
+                        </td>
+
+                        <td>
+                            <input type="tel"
+                                   placeholder="Enter your contact number"
+                                   required
+                                   maxlength="15"
+                                   style="width: 80%; padding: 8px;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Gender:</label>
+                        </td>
+
+                        <td>
+                            <input type="radio" name="gender" required> Male
+                            <input type="radio" name="gender"> Female
+                            <input type="radio" name="gender"> Other
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Date of Birth:</label>
+                        </td>
+
+                        <td>
+                            <input type="date" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Select Courses:</label>
+                        </td>
+
+                        <td>
+                            <input type="checkbox"> HTML
+                            <input type="checkbox"> CSS
+                            <input type="checkbox"> JavaScript
+                            <input type="checkbox"> Python
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>Address:</label>
+                        </td>
+
+                        <td>
+                            <textarea
+                                placeholder="Enter your address here"
+                                required
+                                minlength="10"
+                                maxlength="200"
+                                rows="5"
+                                style="width: 80%; padding: 8px;"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <input type="submit"
+                                   value="Submit"
+                                   style="padding: 8px 20px;">
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+
+        </div>
+
+        <div style="background-color: #dff5bd; text-align: center; padding: 10px;">
+            © 2026 Future Institute. All Rights Reserved.
+        </div>
+
+    </div>
+
+</body>
+</html>
