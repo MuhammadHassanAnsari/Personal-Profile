@@ -1,0 +1,68 @@
+/* Element Selector */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 17px;
+}
+
+
+
+h1, h2, p {
+    text-align: center;
+}
+
+
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+}
+
+#goals {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+.course {
+    font-size: 20px;
+}
+
+.para {
+    color: #0066cc;
+}
+
+
+
+.skills-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
