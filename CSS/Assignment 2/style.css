@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 17px;
+    word-spacing: 3px;
+    text-indent: 30px;
+    line-height: 1.8;
+}
+
+#quote {
+    font-style: italic;
+    text-align: center;
+    color: darkred;
+    font-size: 20px;
+    text-decoration: underline;
+}
