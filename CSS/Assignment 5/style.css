@@ -475,3 +475,149 @@ input::placeholder {
 .product-info button:hover {
     background: #5332d5;
 }
+
+
+.footer {
+    width: 100%;
+    background: #182538;
+    color: white;
+
+    padding: 27px 22px 0;
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+.footer-top {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 13px 24px;
+}
+
+
+.footer-brand {
+    width: 34%;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    margin-bottom: 12px;
+}
+
+.brand-logo svg {
+    width: 35px;
+    height: 35px;
+
+    fill: #7147ee;
+    stroke: #9a7cff;
+    stroke-width: 1.2;
+}
+
+.brand-logo span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f1f3f8;
+}
+
+.footer-brand p {
+    color: #c4ccda;
+
+    font-size: 13px;
+    line-height: 1.55;
+
+    margin: 0;
+}
+
+
+
+.footer-column {
+    width: 18%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h4 {
+    color: #f2f4f8;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    margin: 1px 0 10px;
+}
+
+.footer-column a {
+
+    color: #c4ccda;
+
+    text-decoration: none;
+
+    font-size: 12px;
+    line-height: 1.8;
+
+    transition: 0.2s;
+}
+
+.footer-column a:hover {
+    color: #ffffff;
+}
+
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-top: 1px;
+}
+
+.social-icons a {
+    width: 19px;
+    height: 19px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons svg {
+    width: 18px;
+    height: 18px;
+
+    fill: #dce2eb;
+    stroke: #dce2eb;
+    stroke-width: 1.5;
+
+    transition: 0.2s;
+}
+
+.social-icons a:hover svg {
+    fill: #ffffff;
+    stroke: #ffffff;
+}
+
+
+
+
+.footer-bottom {
+    margin: 0 auto;
+
+    border-top: 1px solid #2c394d;
+
+    padding: 11px 0 10px;
+
+    text-align: center;
+
+    color: #aeb8c8;
+
+    font-size: 12px;
+}
