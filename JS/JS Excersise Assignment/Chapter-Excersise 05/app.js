@@ -61,13 +61,60 @@
 
 // q7
 
-var celcius = 30;
-var farenhite = 12;
+// var celcius = 30;
+// var farenhite = 12;
 
-var conversion = (celcius * 9.5) + 32;
-var conversion1 = (celcius - 32) * 5 / 9;
+// var conversion = (celcius * 9.5) + 32;
+// var conversion1 = (celcius - 32) * 5 / 9;
 
 
 
-alert(`${farenhite} is ${conversion1} C`);
-alert(`${celcius} is ${conversion} F`); 
+// alert(`${farenhite} is ${conversion1} C`);
+// alert(`${celcius} is ${conversion} F`); 
+
+
+
+// q8 
+
+
+// var pricee1 = 560;
+// var quantity1 = 2;
+// var pricee2 = 200;
+// var quantity2 = 5;
+// var charge= 150;
+// var cal = (pricee1*quantity1) + (pricee2 * quantity2) + charge;
+// alert(`Your total chaarges is ${cal}`);
+
+
+
+// q9
+
+// var usd = 10;
+// var riyal = 25;
+// var paktousd = 104;
+// var paktoriyal = 28;
+
+
+// var usdconversion = usd * paktousd;
+// var pakconversion = riyal * paktoriyal;
+
+// var cal = usdconversion + pakconversion;
+// alert(cal);
+
+
+// q10
+
+// var currentYear = +prompt("Enter Current Year");
+// var birthYear = +prompt("Enter Your Birth Year");
+
+// var cal = currentYear - birthYear;
+// alert(cal);
+
+
+// q11
+
+var radius = 4;
+var pi = 3.142;
+
+var cirumference = (2*radius*pi);
+alert(cirumference);
