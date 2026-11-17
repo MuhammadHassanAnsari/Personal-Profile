@@ -1,6 +1,7 @@
 // // var num1 = +prompt("Enter Number 1");
 // // var num2 = +prompt("Enter Number 2");
 
+
 // // var sum = num1 + num2;
 // // alert(`Sum of ${num1} and ${num2} is ${sum}`);
 
@@ -60,5 +61,13 @@
 
 // q7
 
-var celcius = 32;
-var conversion = 
+var celcius = 30;
+var farenhite = 12;
+
+var conversion = (celcius * 9.5) + 32;
+var conversion1 = (celcius - 32) * 5 / 9;
+
+
+
+alert(`${farenhite} is ${conversion1} C`);
+alert(`${celcius} is ${conversion} F`); 
